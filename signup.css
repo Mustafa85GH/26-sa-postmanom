@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url('keyboard.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin-top:20px ;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: cursive;
+    font-weight: bold;
+}
